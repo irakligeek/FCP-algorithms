@@ -1,1 +1,1 @@
-echo # FCP-algorithms
+Algorithm solutions I did on FreeCodeCamp.com.
