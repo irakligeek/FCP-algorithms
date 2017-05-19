@@ -1,1 +1,1 @@
-Algorithm solutions I did on FreeCodeCamp.com.
+Algorithm solutions I did for FreeCodeCamp.com.
