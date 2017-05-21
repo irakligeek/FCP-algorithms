@@ -1,0 +1,22 @@
+body{
+	margin-top: 20px;
+}
+q { quotes: '\201c' '\201d'; }
+q:before { content: open-quote; font-size: 2em;}
+q:after  { 
+  content: close-quote;  font-size: 2em; 
+}
+.twitter img{
+  max-width: 80px;
+}
+.twitter a{
+  display: block;
+  max-width: 80px;
+  margin: 0 auto;
+}
+#quote{
+  color: #8e8e8e;
+}
+.twitter img{
+  width: 0px;
+}
