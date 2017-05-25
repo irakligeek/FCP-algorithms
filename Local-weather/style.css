@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+body{
+  background: #4A2B0F;
+  font-family: 'Source Code Pro', monospace;
+}
+#wheater-info{
+  color: #dddddd;
+  background: #006400;
+  min-width:200px;
+  min-height: 300px;
+  margin-top: 5%;
+  padding: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.temperature{
+  font-size: 4em;
+  display: block;
+  margin-bottom: 0px;
+}
+p.temperature{
+  margin-bottom: 0px;
+}
+.location{
+  font-size: 2em;
+}
+#wheater-info a:hover,
+#wheater-info a:focus{
+  text-decoration: none;
+  color: #999;
+}
+#c, #f{
+  font-size: 30px;
+  color: #dddddd;
+}
+.main-display{
+  position: relative;
+  max-width: 200px;
+  min-width:180px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5em;
+}
+.unit-icons {
+    position: absolute;
+        top: 10px;
+    right: -20px;
+}
+footer {
+  color: #999;
+}

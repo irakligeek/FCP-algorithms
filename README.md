@@ -1,1 +1,1 @@
-Algorithm solutions I did on FreeCodeCamp.com
+FreeCodeCamp exercises and apps I did on FreeCodeCamp.com
