@@ -1,0 +1,46 @@
+body{
+  background: #f2f2f2;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.heading{
+  padding-bottom: 10px;
+}
+button{
+    position:absolute;
+    right:0; top:0;
+    min-width: 40px;
+    height: 100%; width: 15%; 
+    border-radius: 0px 4px 4px 0px !important;
+}
+.form-group{
+  position: relative;
+  z-index: 101;
+}
+#dim {
+    display: none;position:absolute;
+    top:0;left:0;
+    width:100%;height:100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index:100;
+}
+.search-field{
+  height: 40px;
+  font-size: 1em;
+}
+h1{
+  font-family: 'Linux Libertine';
+  text-transform: uppercase;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 468px) { 
+  h1{
+    letter-spacing: 10px;   
+  }
+}
+.search-result img{
+  float: left;
+  max-width: 100px;
+  height: auto;
+  padding: 0px 10px 5px 0px;
+}
