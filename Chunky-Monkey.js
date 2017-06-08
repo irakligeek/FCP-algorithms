@@ -13,7 +13,6 @@ function chunkArrayInGroups(arr, size) {
     chunk.push(arr.slice(index, index+size));
     index+=size;
   }
-
   for (var y=0; y<chunk.length; y++){
     //clean our array from empty arrays
     if(chunk[y].length !== 0){

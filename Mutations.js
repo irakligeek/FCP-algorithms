@@ -24,6 +24,5 @@ function mutation(arr) {
   }
   return false;
 }
-
 //test
 mutation(["hello", "hey"]);
