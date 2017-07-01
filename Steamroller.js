@@ -15,7 +15,6 @@ function steamrollArray(arr) {
     return flat;
   }
  
-//   console.log(flat);
   return flatten(arr);
 }
  
