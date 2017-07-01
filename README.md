@@ -1,1 +1,1 @@
-FreeCodeCamp exercises and apps I did on FreeCodeCamp.com
+FreeCodeCamp algorithms solutions and apps for FreeCodeCamp.com
