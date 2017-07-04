@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+.heading{
+  font-weight: 600;
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#display-panel{
+  height: 80px;
+  font-size: 1.5em;
+  line-height: 80px;
+  padding-left: 20px;
+  background: #C4C7B6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.3);
+  font-family: 'Orbitron', sans-serif;
+  overflow-y: hidden;
+  overflow-x: auto;
+
+}
+.hint{
+  font-size: 11px;
+  font-style: italic;
+  display: block;
+  color: gray;
+  margin-bottom: 0px;
+  padding-bottom: 6px;padding-top: 6px;
+}
