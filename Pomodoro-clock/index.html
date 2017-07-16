@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Pomodoro Clock</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="massage"></div>
+<div class="container">
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="jumbotron">
+          <h3 class="heading text-center">Pomodoro Clock <a target="_blank" href="https://en.wikipedia.org/wiki/Pomodoro_Technique">?</a></h3><br>
+          <div id="display" class="center-block">
+            <span class="time-display">00h:00m:00s</span>
+          </div><!--#display -->
+          <div class="progressBar"></div>
+          
+          <div class="row">
+            <div class="controls col-xs-12">
+                <div class="input-group session-spinner">
+                <label for="session-time">Session Length (min)</label>
+                <input id="session-time" type="number" class="form-control text-center" value="1"  pattern="[0-9]*" min="1">
+                </div><!--.input group -->
+                
+                <div class="input-group break-spinner">
+                <label for="break-time">Break Length (min)</label>
+                <input id="break-time" type="number" class="form-control text-center" value="1"  pattern="[0-9]*" min="1">
+              </div><!--.input group-->
+            
+            </div><!--.col-xs-12 -->
+            
+            <div class="buttons row">
+              <div class="col-xs-12">
+                <a id="start">Start</a>
+                <a id="reset">Reset</a>
+              </div>
+            </div><!-- buttons -->
+          </div><!-- row-->
+          
+        </div><!-- Jumbotron -->
+      </div><!--col-md-8 -->
+  </div><!--row -->
+</div><!--container -->
+<footer class="text-center">Created by <a href="mailto:irakligeek@gmail.com">Irakli</a></footer>
+<br /><br />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+  </body>
+</html>
